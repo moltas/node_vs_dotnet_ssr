@@ -1,0 +1,26 @@
+{
+  "name": "node_vs_dotnet",
+  "version": "1.0.0",
+  "description": "Comparing NodeJs and dotnet SSR performance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./express/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "nodemon": "^1.18.7",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
